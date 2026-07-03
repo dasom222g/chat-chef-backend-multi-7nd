@@ -39,17 +39,6 @@ app.get("/test", (req, res) => {
   }
 });
 
-ingredientList = [
-  {
-    id: 23,
-    value: "오이",
-  },
-];
-
-const arr = ["안녕", "ㅋㅋ", "하이"]; // array
-arr.join("|"); // string
-// "안녕|ㅋㅋ|하이"
-
 // 챗봇 api설정
 const initialMessage = (ingredientList) => {
   return [
